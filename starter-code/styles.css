@@ -266,6 +266,33 @@ h2 {
 }
 .interactiveElementsContainer {
     height: 96px;
-    background-color: #979797;
-    opacity:4%;
+    background-color: hsl(var(--colorWhite)/4%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25%; 
+    font-family: var(--font2);
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+
+}
+
+.interactiveElementsContainer span {
+    font-weight: bold;
+}
+
+.interactiveElementsContainer div {
+    display: flex;
+    align-items: center;
+}
+
+.active {
+    border-bottom:3px solid hsl(var(--colorWhite));
+}
+
+.hovered {
+    border-bottom:3px solid hsl(var(--colorWhite)/52.21%);
+}
+
+.idle {
+    border-bottom:3px solid hsl(var(--colorWhite)/0%);
 }
