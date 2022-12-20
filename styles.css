@@ -81,8 +81,7 @@ html {
 body {
     
     height: 100vh;
-    background-image: url("./assets/home/background-home-mobile.jpg");
-    background-position: center;
+    background-image: url("./starter-code/assets/home/background-home-mobile.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 0px 24px;
@@ -129,13 +128,13 @@ p {
 }
 
 #mainIcon {
-    background-image: url("./assets/shared/logo.svg");
+    background-image: url("./starter-code/assets/shared/logo.svg");
     height: 40px;
     width: 40px;
 }
 
 #menuIcon {
-    background-image: url("./assets/shared/icon-hamburger.svg");
+    background-image: url("./starter-code/assets/shared/icon-hamburger.svg");
     height: 21px;
     width: 24px;
 }
@@ -149,5 +148,5 @@ p {
     font-family: var(--font1);
     letter-spacing: 1.25px;
     margin-top: 81px;
-
+    border: none;
 }
