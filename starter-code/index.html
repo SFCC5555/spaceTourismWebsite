@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" type="text/css" href="desktop.css" media="screen and (min-width:1000px)">
-
+  <link rel="stylesheet" type="text/css" href="desktop.css" media="screen and (min-width:800px)">
+  <link rel="stylesheet" type="text/css" href="tablet.css" media="screen and (min-width:400px)">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,164 +17,22 @@
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
+  <nav>
+    <span class="icon" id="mainIcon"></span>
+    <span class="icon" id="menuIcon"></span>
+  </nav>
 
-  <div class="container">
-
-    <div class="mainTitle">
-      <span class="logo"></span>
-      <h1 class="title">DESIGN SYSTEM</h1>
-    </div>
-
-
-    <section id="colors">
-      <h2><span class="number">01</span>COLORS</h2>
-
-      <div class="colorsContainer">
-        <div>
-          <div class="bg-dark text-white" style="padding: 6.4rem 2.35rem 2.35rem; border: 1px solid white">
-            #0B0D17
-          </div>
-          <p><span class="text-accent">RGB</span> 11,13,23</p>
-          <p><span class="text-accent">HSL</span> 230°,35%,7%</p>
-  
-        </div>
-  
-        <div>
-  
-          <div class="bg-accent text-dark" style="padding: 6.4rem 2.35rem 2.35rem; border: 1px solid white">
-            #D0D6F9
-          </div>
-          <p><span class="text-accent">RGB</span> 208,214,249</p>
-          <p><span class="text-accent">HSL</span> 231°,77%,90%</p>
-  
-        </div>
-  
-        <div>
-  
-          <div class="bg-white text-dark" style="padding: 6.4rem 2.35rem 2.35rem; border: 1px solid white">
-            #FFFFFF
-          </div>
-          <p><span class="text-accent">RGB</span> 255,255,255</p>
-          <p><span class="text-accent">HSL</span> 0°,0%,100%</p>
-
-        </div>
-
-      </div>
-
-
+  <main>
+    <section class="content">
+      <div class="size16-20-28px font2 colorLight marginB16-24-24px">SO, YOU WANT TO TRAVEL TO</div>
+      <div class="size80-150-150px font1 colorWhite marginB16-24-24px">SPACE</div>
+      <p>Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+       
     </section>
 
-    <section id="typography">
-      <h2><span class="number">02</span>TYPOGRAPHY</h2>
+    <button id="exploreButton">EXPLORE</button>
+  </main>
 
-      <div class="typographyContainer">
-
-        <div class="typographyBlock1">
-          <div>
-            <p>
-              Heading 1 - Bellefair Regular - 150px
-            </p>
-            <h1 class="earth">
-              EARTH
-            </h1>
-          </div>
-
-          <div>
-            <p>
-              Heading 2 - Bellefair Regular - 100px
-            </p>
-            <h1 class="venus">
-              VENUS
-            </h1>
-          </div>
-
-          <div>
-            <p>
-              Heading 3 - Bellefair Regular - 56px
-            </p>
-            <h1 class="jupiterAndSaturn">
-              JUPITER & SATURN
-            </h1>
-          </div>
-
-          <div>
-            <p>
-              Heading 4 - Bellefair Regular - 32px
-            </p>
-            <h1 class="uranusNeptuneAndPluto">
-              URANUS, NEPTUNE, & PLUTO
-            </h1>
-          </div>
-
-          <div>
-            <p>
-              Heading 5 - Barlow Condensed Regular - 28px - 4.75 Character Space
-            </p>
-            <h1 id="travelToSpace">
-              SO, YOU WANT TO TRAVEL TO SPACE
-            </h1>
-          </div>
-
-        </div>
-
-        <div class="typographyBlock2">
-          <div>
-            <p>
-              Subheading 1 - Bellefair Regular - 28px
-            </p>
-            <h1 class="km">
-              384,400 KM
-            </h1>
-          </div>
-
-          <div>
-            <p>
-              Subheading 2 - Barlow Condensed Regular - 14px - 2.35 Character Space
-            </p>
-            <h1 class="distance">
-              AVG. DISTANCE
-            </h1>
-          </div>
-
-          <div>
-            <p>
-              Nav Text - Barlow Condensed Regular - 16px - 2.7 Character Space
-            </p>
-            <h1 class="europa">
-              EUROPA
-            </h1>
-          </div>
-
-          <div>
-            <p id="bodyText">
-              Body Text
-            </p>
-            <h1 class="text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. 
-            </h1>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-    <section id="interactiveElements">
-      <h2><span class="number">03</span>INTERACTIVE ELEMENTS</h2>
-
-      <div class="interactiveElementsContainer">
-
-          <div class="active"><span>00 </span>ACTIVE</div>
-          <div class="hovered"><span>01 </span>HOVERED</div>
-          <div class="idle"><span>02 </span>IDLE</div>
-
-      </div>
-
-    </section>
-
-
-  </div>
 
 
 
