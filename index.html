@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" type="text/css" href="tablet.css" media="screen and (min-width:700px)">
-  <link rel="stylesheet" type="text/css" href="desktop.css" media="screen and (min-width:900px)">
+  <link rel="stylesheet" type="text/css" href="desktop.css" media="screen and (min-width:950px)">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,9 +17,20 @@
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
-  <nav>
+  <nav class="mobileNav">
     <span class="icon" id="mainIcon"></span>
     <span class="icon" id="menuIcon"></span>
+  </nav>
+  <nav class="desktopNav">
+    <span class="icon" id="mainIcon"></span>
+    <section class="navSection">
+
+      <div>HOME</div>
+      <div>DESTINATION</div>
+      <div>CREW</div>
+      <div>TECHNOLOGY</div>
+
+    </section>
   </nav>
 
   <main>
@@ -32,12 +43,6 @@
 
     <button id="exploreButton">EXPLORE</button>
   </main>
-
-
-
-
-
-
 <script src="index.pack.js"></script>
 </body>
 </html>

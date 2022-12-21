@@ -35,6 +35,39 @@
 
 body {
     background-image: url("./starter-code/assets/home/background-home-tablet.jpg");
+    padding-left:39px;
+    padding-right: 0px;
+}
+
+main {
+    padding-right: 39px;
+}
+
+
+.mobileNav{
+    display: none;
+
+}
+
+.desktopNav{
+
+    display: flex;
+
+}
+
+#mainIcon {
+    height: 48px;
+    width: 48px;
+}
+
+
+
+.content {
+    width: 450px;
+}
+
+p {
+    font-size: 1.6rem;
 }
 
 #exploreButton {
@@ -43,4 +76,5 @@ body {
     font-size: 3.2rem;
     letter-spacing: 2px;
     margin-top: 81px;
+    margin-bottom: 90px;
 }
