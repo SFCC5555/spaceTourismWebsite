@@ -34,5 +34,6 @@
 }
 
 body {
-    background-image: url("./starter-code/assets/home/background-home-desktop.jpg")
+    background-image: url("./starter-code/assets/home/background-home-desktop.jpg");
+    background-size: auto;
 }
