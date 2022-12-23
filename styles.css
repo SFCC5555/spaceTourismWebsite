@@ -78,6 +78,11 @@ html {
     margin-bottom: 16px;
 }
 
+.current {
+    border-bottom: 3px solid hsl(var(--colorWhite));
+
+}
+
 body {
     
     width: 100%;
@@ -112,12 +117,27 @@ body {
 
 }
 
-.navSection {
-    width: 450px;
-    height: 100%;
-    padding: 0px 48px;
+.navIconSection {
+    width: 100%;
     display: flex;
     align-items: center;
+}
+
+.navLine {
+    display: none;
+    width:90%;
+    border-bottom: 1px solid hsl(var(--colorWhite)/25.25%);
+    translate: 7.5%;
+}
+
+.navSection {
+    width: 450px;
+    min-width: 450px;
+    height: 100%;
+    padding: 0px 48px;
+    padding-top: 34px;
+    display: flex;
+    align-items: stretch;
     justify-content: space-between;
     font-family: var(--font2);
     color: hsl(var(--colorWhite));
@@ -125,6 +145,16 @@ body {
     letter-spacing: 2.36px;
     background-color: hsl(var(--colorWhite)/4%);
 
+}
+
+.navSection div:hover {
+    cursor: pointer;
+    border-bottom: 3px solid hsl(var(--colorWhite)/50.21%);
+
+}
+
+.navSection span {
+ display: none;   
 }
 
 main {
@@ -141,10 +171,11 @@ main {
 }
 
 p {
-    font-family: var(--font1);
+    font-family: var(--font3);
     font-size: 1.5rem;
     color: hsl(var(--colorLight));
     text-align: center;
+    line-height: 25px;
 }
 
 .icon {
@@ -152,6 +183,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    cursor: pointer;
 }
 
 #mainIcon {
@@ -166,6 +198,7 @@ p {
     width: 24px;
 }
 
+
 #exploreButton {
     height: 150px;
     width: 150px;
@@ -177,4 +210,9 @@ p {
     margin-top: 81px;
     margin-bottom: 48px;
     border: none;
+    cursor: pointer;
+}
+
+#exploreButton:hover {
+    box-shadow: 0px 0px 0px 48px hsl(var(--colorWhite)/10.36%);
 }

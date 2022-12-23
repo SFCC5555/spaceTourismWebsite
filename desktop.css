@@ -34,21 +34,53 @@
 }
 
 body {
+    height: 100vh;
     background-image: url("./starter-code/assets/home/background-home-desktop.jpg");
-    background-size: auto;
+    background-size:cover;
     padding-top: 40px;
     padding-left:55px;
     padding-right: 0px;
 }
 
+.navLine {
+    display: block;
+}
+
+.navSection {
+    min-width: 600px;
+    font-size: 1.6rem;
+    padding-top: 32px;
+}
+
+.navSection span {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: var(--font2);
+    margin-right: 11px;
+}
+
+
 main {
+    height: 100%;
     flex-direction: row;
     justify-content: space-between;
     padding-left: 7.8%;
     padding-right: calc(7.8% + 55px);
+    padding-bottom: 131px;
+    align-items: flex-end;
+}
+
+#exploreButton {
+    margin-bottom: 0px;
+}
+
+#exploreButton:hover {
+    box-shadow: 0px 0px 0px 88px hsl(var(--colorWhite)/10.36%);
 }
 
 p {
     font-size: 1.8rem;
     text-align: left;
+    line-height: 32px;
 }
