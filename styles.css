@@ -45,8 +45,12 @@ html {
 
 .size14px {
     font-size: 1.4rem;
-    letter-spacing: 2.35px;
+    letter-spacing: 2.36px;
 
+}
+
+.size28px {
+    font-size: 2.8rem;;
 }
 
 .size16-20-28px {
@@ -82,6 +86,14 @@ html {
     margin-bottom: 32px;
 }
 
+.marginB12px {
+    margin-bottom: 32px;
+}
+
+.paddingB32-49-54px {
+    padding-bottom: 32px;
+}
+
 .current {
     border-bottom: 3px solid hsl(var(--colorWhite));
 
@@ -97,6 +109,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 #bodyHome {
@@ -168,6 +181,7 @@ body {
     color: hsl(var(--colorWhite));
     font-size: 1.4rem;
     letter-spacing: 2.36px;
+    margin-bottom: 20px;
 
 }
 
@@ -199,6 +213,14 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .thirdContent {
     display: flex;
@@ -271,4 +293,20 @@ p {
 .spanNumber {
     color: hsl(var(--colorWhite)/25%);
     font-weight: bold;
+}
+
+.dataContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.borderB1px-solid {
+    border-bottom: 1px solid hsl(var(--colorWhite)/25%);
+}
+
+.dataContainer>div {
+    margin-bottom: 32px;
 }
