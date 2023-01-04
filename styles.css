@@ -113,11 +113,11 @@ body {
 }
 
 #bodyHome {
-    background-image: url("./starter-code/assets/home/background-home-mobile.jpg");
+    background-image: url("./assets/home/background-home-mobile.jpg");
 }
 
 #bodyDestination {
-    background-image: url("./starter-code/assets/destination/background-destination-mobile.jpg");
+    background-image: url("./assets/destination/background-destination-mobile.jpg");
 }
 
 .mobileNav{
@@ -171,6 +171,11 @@ body {
 
 }
 
+.navSection > a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .navPlanet {
     width: 237.5px;
     height: 28px;
@@ -185,7 +190,7 @@ body {
 
 }
 
-.navSection div:hover, .navPlanet div:hover {
+.navSection a:hover, .navPlanet div:hover {
     cursor: pointer;
     border-bottom: 3px solid hsl(var(--colorWhite)/50.21%);
 
@@ -246,13 +251,13 @@ p {
 }
 
 #mainIcon {
-    background-image: url("./starter-code/assets/shared/logo.svg");
+    background-image: url("./assets/shared/logo.svg");
     height: 40px;
     width: 40px;
 }
 
 #menuIcon {
-    background-image: url("./starter-code/assets/shared/icon-hamburger.svg");
+    background-image: url("./assets/shared/icon-hamburger.svg");
     height: 21px;
     width: 24px;
 }
@@ -266,8 +271,6 @@ p {
     font-size: 2rem;
     font-family: var(--font1);
     letter-spacing: 1.25px;
-    margin-top: 81px;
-    margin-bottom: 48px;
     border: none;
     cursor: pointer;
 }
@@ -309,4 +312,12 @@ p {
 
 .dataContainer>div {
     margin-bottom: 32px;
+}
+
+main>a {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 0;
+    margin-top: 81px;
 }

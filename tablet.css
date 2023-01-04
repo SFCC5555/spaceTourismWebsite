@@ -42,11 +42,11 @@ body {
 }
 
 #bodyHome {
-    background-image: url("./starter-code/assets/home/background-home-tablet.jpg");
+    background-image: url("./assets/home/background-home-tablet.jpg");
 }
 
 #bodyDestination {
-    background-image: url("./starter-code/assets/destination/background-destination-tablet.jpg");
+    background-image: url("./assets/destination/background-destination-tablet.jpg");
 }
 
 main {
@@ -96,8 +96,7 @@ p {
     width: 274px;
     font-size: 3.2rem;
     letter-spacing: 2px;
-    margin-top: 81px;
-    margin-bottom: 90px;
+
 }
 
 #exploreButton:hover {
@@ -117,4 +116,11 @@ p {
     flex-direction: row;
     justify-content: space-around;
 
+}
+
+main a {
+    height: 274px;
+    width: 274px;
+    margin-top: 156px;
+    margin-bottom: 90px;
 }
