@@ -41,8 +41,8 @@
 }
 
 body {
-    height: 100vh;
     background-size:cover;
+    justify-content: space-between;
     padding-top: 40px;
     padding-left:55px;
     padding-right: 0px;
@@ -59,6 +59,12 @@ body {
 .navLine {
     display: block;
 }
+
+.desktopNav {
+    margin-bottom: 24px;
+}
+
+
 
 .navSection {
     min-width: 600px;
@@ -87,6 +93,8 @@ main {
     padding-right: calc(7.8% + 55px);
     padding-bottom: 131px;
     align-items: flex-end;
+
+
 }
 
 .thirdContent {
