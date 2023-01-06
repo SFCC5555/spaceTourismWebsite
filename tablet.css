@@ -125,3 +125,7 @@ main a {
     margin-top: 156px;
     margin-bottom: 90px;
 }
+
+.activeMenu {
+    display: none;
+}
