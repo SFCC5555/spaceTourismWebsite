@@ -94,8 +94,17 @@ html {
     padding-bottom: 32px;
 }
 
+.inactive {
+    display: none;
+}
+
 .current {
     border-bottom: 3px solid hsl(var(--colorWhite));
+
+}
+
+.currentMenu {
+    border-right: 3px solid hsl(var(--colorWhite));
 
 }
 
@@ -321,4 +330,50 @@ main>a {
     border-radius: 50%;
     padding: 0;
     margin-top: 81px;
+}
+
+.activeMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: left;
+    background-color: hsl(var(--colorWhite)/4%);
+    position: absolute;
+    right: 0;
+    width: 254px;
+    height: 100%;
+    padding-left: 32px;
+    padding-top: 33.95px;
+    backdrop-filter: blur(50px);
+}
+
+.activeMenu>a {
+    color: hsl(var(--colorWhite));
+    text-decoration: none;
+    font-family: var(--font2);
+    font-size: 1.6rem;
+    letter-spacing: 2.7px;
+    margin-left: 29px;
+    margin-bottom: 32px;
+
+
+}
+
+.activeMenu>a>span {
+
+    font-weight: bold;
+    position: absolute;
+    translate: -29px;
+}
+
+.close {
+    
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    background-image: url("./assets/shared/icon-close.svg");
+    align-self: flex-end;
+    translate: -26px;
+    margin-bottom: 65px;
+    cursor: pointer;
 }
