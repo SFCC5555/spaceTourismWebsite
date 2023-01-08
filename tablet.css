@@ -24,8 +24,17 @@
     
 }
 
+.marginB8-12-15px {
+    margin-bottom: 8
+    12px;
+}
+
 .marginB16-24-24px {
-    margin-bottom: 2.4px;
+    margin-bottom: 24px;
+}
+
+.marginB32-60-0px {
+    margin-bottom: 60px;
 }
 
 .marginB32-60-97px {
@@ -34,6 +43,16 @@
 
 .marginB32-49-54px {
     margin-bottom: 49px;
+}
+
+.desktopW445px {
+    max-width: 700px;
+
+}
+
+.desktopW488px {
+    max-width: 700px;
+
 }
 
 body {
@@ -48,6 +67,14 @@ body {
 
 #bodyDestination {
     background-image: url("./assets/destination/background-destination-tablet.jpg");
+}
+
+#bodyCrew {
+    background-image: url("./assets/crew/background-crew-tablet.jpg");
+}
+
+#bodyTechnology {
+    background-image: url("./assets/technology/background-technology-tablet.jpg");
 }
 
 main {
@@ -77,6 +104,10 @@ main {
     width: 450px;
 }
 
+.secondContent {
+    width: 100%;
+}
+
 p {
     font-size: 1.6rem;
     line-height: 28px;
@@ -90,6 +121,10 @@ p {
     letter-spacing: 2.7px;
     margin-bottom: 32px;
 
+}
+
+.navCrew {
+    order:1;
 }
 
 #exploreButton {
@@ -107,6 +142,10 @@ p {
 .planetImage {
     width: 300px;
     margin-bottom: 53px;
+}
+
+.crewImage {
+    height: 572px;
 }
 
 .title {
@@ -128,4 +167,10 @@ main a {
 
 .activeMenu {
     display: none;
+}
+
+figure {
+    border-bottom: none;
+    order:1;
+    margin-bottom: 0px;
 }

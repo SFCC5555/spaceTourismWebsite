@@ -24,8 +24,16 @@
     
 }
 
+.marginB8-12-15px {
+    margin-bottom: 15px;
+}
+
 .marginB16-24-24px {
-    margin-bottom: 2.4px;
+    margin-bottom: 24px;
+}
+
+.marginB32-60-0px {
+    margin-bottom: 0px;
 }
 
 .marginB32-60-97px {
@@ -38,6 +46,12 @@
 
 .desktopW445px {
     max-width: 445px;
+    min-width: 375px;
+}
+
+.desktopW488px {
+    max-width: 488px;
+    min-width: 375px;
 }
 
 body {
@@ -53,6 +67,14 @@ body {
 
 #bodyDestination {
     background-image: url("./assets/destination/background-destination-desktop.jpg");
+}
+
+#bodyCrew {
+    background-image: url("./assets/crew/background-crew-desktop.jpg");
+}
+
+#bodyTechnology {
+    background-image: url("./assets/technology/background-technology-desktop.jpg");
 }
 
 .navLine {
@@ -83,6 +105,16 @@ body {
     margin-bottom: 37px;
 }
 
+.navCrew {
+    width: 132px;
+    margin-top: 58px;
+}
+
+.navCrew>div {
+    height: 15px;
+    width: 15px;
+}
+
 
 main {
     height: 100%;
@@ -92,8 +124,10 @@ main {
     padding-right: calc(7.8% + 55px);
     padding-bottom: 131px;
     align-items: flex-end;
+}
 
-
+#crewMain {
+    padding-bottom: 0px;
 }
 
 .thirdContent {
@@ -102,8 +136,8 @@ main {
     justify-content: space-between;
 }
 
-.secondContent {
-    width: 100%;
+.content {
+    align-items: flex-start;
 }
 
 .mainContent {
@@ -126,6 +160,10 @@ p {
     margin-right: 25px;
 }
 
+.crewImage {
+    height: 712px;
+}
+
 .dataContainer {
     width: 85%;
     justify-content: space-between;
@@ -135,4 +173,8 @@ p {
 main>a {
 
     margin-bottom: 0;
+}
+
+#crewName {
+    text-align: left;
 }

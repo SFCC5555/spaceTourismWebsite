@@ -78,8 +78,16 @@ html {
     
 }
 
+.marginB8-12-15px {
+    margin-bottom: 8px;
+}
+
 .marginB16-24-24px {
     margin-bottom: 16px;
+}
+
+.marginB32-60-0px {
+    margin-bottom: 32px;
 }
 
 .marginB32-60-97px {
@@ -128,6 +136,14 @@ body {
 
 #bodyDestination {
     background-image: url("./assets/destination/background-destination-mobile.jpg");
+}
+
+#bodyCrew {
+    background-image: url("./assets/crew/background-crew-mobile.jpg");
+}
+
+#bodyTechnology {
+    background-image: url("./assets/technology/background-technology-mobile.jpg");
 }
 
 .mobileNav{
@@ -198,6 +214,31 @@ body {
     letter-spacing: 2.36px;
     margin-bottom: 20px;
 
+}
+
+.navCurrentCrew {
+    background-color: hsl(var(--colorWhite)) !important; 
+}
+
+.navCrew {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 88px;
+    margin-bottom: 20px;
+
+}
+
+.navCrew>div {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: hsl(var(--colorWhite)/17.44%);
+    cursor: pointer;
+}
+
+.navCrew>div:hover {
+    background-color: hsl(var(--colorWhite)/50.21%);
 }
 
 .navSection a:hover, .navPlanet div:hover {
@@ -299,6 +340,10 @@ p {
     margin-bottom: 26px;
 }
 
+.crewImage {
+    height: 222px;
+}
+
 .title {
     text-align: center;
 }
@@ -306,6 +351,7 @@ p {
 .spanNumber {
     color: hsl(var(--colorWhite)/25%);
     font-weight: bold;
+    margin-right: 18px;
 }
 
 .dataContainer {
@@ -376,4 +422,14 @@ main>a {
     translate: -26px;
     margin-bottom: 65px;
     cursor: pointer;
+}
+
+#crewRange {
+    color: hsl(var(--colorWhite)/50.21%);
+}
+
+figure {
+    align-self: stretch;
+    margin-bottom: 32px;
+    border-bottom: 1px solid hsl(var(--colorWhite)/25%);
 }

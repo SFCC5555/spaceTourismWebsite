@@ -16,7 +16,7 @@
   
   <title>Space tourism website</title>
 </head>
-<body id="bodyDestination">
+<body id="bodyCrew">
   <nav class="mobileNav">
     <a href="./index.html"><span class="icon" id="mainIcon"></span></a>
     <span class="icon" id="menuIcon"></span>
@@ -26,8 +26,8 @@
     
     <span class="close"></span>
     <a href="./index.html" ><span>00 </span>HOME</a>
-    <a href="./destination.html" class="currentMenu"><span>01 </span>DESTINATION</a>
-    <a href="./crew.html"><span>02 </span>CREW</a>
+    <a href="./destination.html"><span>01 </span>DESTINATION</a>
+    <a href="./crew.html" class="currentMenu"><span>02 </span>CREW</a>
     <a href="./technology.html"><span>03 </span>TECHNOLOGY</a>
 
   </section>
@@ -41,54 +41,41 @@
     <section class="navSection">
 
       <a href="./index.html"><span>00 </span>HOME</a>
-      <a class="current" href="./destination.html"><span>01 </span>DESTINATION</a>
-      <a href="./crew.html"><span>02 </span>CREW</a>
+      <a href="./destination.html"><span>01 </span>DESTINATION</a>
+      <a class="current" href="./crew.html"><span>02 </span>CREW</a>
       <a href="./technology.html"><span>03 </span>TECHNOLOGY</a>
 
     </section>
   </nav>
 
-  <main>
+  <main id="crewMain">
     
     <section class="secondContent">
 
-        <div class="title size16-20-28px font2 colorWhite marginB32-60-97px"><span class="spanNumber">01</span>PICK YOUR DESTINATION</div>
+        <div class="title size16-20-28px font2 colorWhite marginB32-60-0px"><span class="spanNumber">02</span>MEET YOUR CREW</div>
     
         <section class="thirdContent">
-
-            <image class="planetImage" src="./assets/destination/image-moon.png"></image>
-
-            <section class="mainContent desktopW445px">
+            <figure><image class="crewImage" src="./assets/crew/image-douglas-hurley.png"></image></figure>
+            
+            <section class="mainContent desktopW488px">
     
-                <section class="navPlanet">
+                <section class="navCrew">
     
-                    <div id="Moon"class="current">MOON</div>
-                    <div id="Mars">MARS</div>
-                    <div id="Europa">EUROPA</div>
-                    <div id="Titan">TITAN</div>
+                    <div id="one" name="Douglas Hurley" class="navCurrentCrew"></div>
+                    <div id="two" name="Mark Shuttleworth" ></div>
+                    <div id="three" name="Victor Glover" ></div>
+                    <div id="four" name="Anousheh Ansari" ></div>
             
                 </section>
-                <div id="planetName" class="size56-80-100px font1 colorWhite marginB16-24-24px">MOON</div>
-                <p id="planetDescription" class="borderB1px-solid paddingB32-49-54px">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                <div id="crewRange" class="size16-24-32px font1 marginB8-12-15px">COMMANDER</div>
+                <div id="crewName" class="size24-40-56px font1 colorWhite marginB16-24-24px">DOUGLAS HURLEY</div>
+                <p id="crewDescription" class="paddingB32-49-54px">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
     
-                <section class="dataContainer">
-
-                  <div>
-                    <div class="size14px font2 colorLight marginB12px">AVG. DISTANCE</div>
-                    <div id="planetDistance" class="size28px font1 colorWhite">384,400 KM</div>
-                  </div>
-
-                  <div>
-                    <div class="size14px font2 colorLight marginB12px">EST. TRAVEL TIME</div>
-                    <div id="planetTravel" class="size28px font1 colorWhite">3 DAYS</div>
-                  </div>
-
-                </section>
             </section>    
         </section>    
     </section>
 
   </main>
-<script src="destination.js"></script>
+<script src="crew.js"></script>
 </body>
 </html>
