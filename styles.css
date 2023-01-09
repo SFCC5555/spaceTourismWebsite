@@ -112,7 +112,7 @@ html {
 }
 
 .current {
-    border-bottom: 3px solid hsl(var(--colorWhite));
+    border-bottom: 3px solid hsl(var(--colorWhite)) !important;
 
 }
 
