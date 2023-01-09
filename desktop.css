@@ -116,6 +116,20 @@ body {
 }
 
 
+.navTechnology {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 304px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+}
+
+.navTechnology>div {
+    height: 80px;
+    width: 80px;
+    font-size: 3.2rem;
+}
+
 main {
     height: 100%;
     flex-direction: row;
@@ -129,6 +143,12 @@ main {
 #crewMain {
     padding-bottom: 0px;
 }
+
+#technologyMain {
+    padding-right: 0px;
+
+}
+
 
 .thirdContent {
     width: 100%;
@@ -164,6 +184,11 @@ p {
     height: 712px;
 }
 
+.technologyImage {
+    order: 1;
+    width: 925px;
+}
+
 .dataContainer {
     width: 85%;
     justify-content: space-between;
@@ -177,4 +202,29 @@ main>a {
 
 #crewName {
     text-align: left;
+}
+
+picture {
+    width: 45%;
+    order: 1;
+}
+
+.technologyImage {
+    width: 100%;
+
+}
+
+.technologyContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.mainTechnologyContent {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 55%;
+    margin-right: 20px;
+    margin-top: 30px;
 }

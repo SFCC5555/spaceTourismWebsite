@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="tablet.css" media="screen and (min-width:700px)">
+  <link rel="stylesheet" type="text/css" href="desktop.css" media="screen and (min-width:1000px)">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+  
+  <title>Space tourism website</title>
+</head>
+<body id="bodyTechnology">
+  <nav class="mobileNav">
+    <a href="./index.html"><span class="icon" id="mainIcon"></span></a>
+    <span class="icon" id="menuIcon"></span>
+  </nav>
+
+  <section id="menu" class="inactive">
+    
+    <span class="close"></span>
+    <a href="./index.html" ><span>00 </span>HOME</a>
+    <a href="./destination.html"><span>01 </span>DESTINATION</a>
+    <a href="./crew.html"><span>02 </span>CREW</a>
+    <a href="./technology.html" class="currentMenu"><span>03 </span>TECHNOLOGY</a>
+
+  </section>
+
+  <nav class="desktopNav">
+    <section class="navIconSection">
+      <a href="./index.html"><span class="icon" id="mainIcon"></span></a>
+      <div class="navLine"></div>
+    </section>
+
+    <section class="navSection">
+
+      <a href="./index.html"><span>00 </span>HOME</a>
+      <a href="./destination.html"><span>01 </span>DESTINATION</a>
+      <a href="./crew.html"><span>02 </span>CREW</a>
+      <a class="current" href="./technology.html"><span>03 </span>TECHNOLOGY</a>
+
+    </section>
+  </nav>
+
+  <main id="technologyMain">
+    
+    <section class="secondContent">
+
+        <div class="title size16-20-28px font2 colorWhite marginB32-60-0px"><span class="spanNumber">03</span>SPACE LAUNCH 101</div>
+    
+        <section class="thirdContent">
+            <picture>
+                <source class=technologyImageD srcset="./assets/technology/image-launch-vehicle-portrait.jpg" media="(min-width: 1000px)">
+                <img class="technologyImage" src="./assets/technology/image-launch-vehicle-landscape.jpg"></img>
+
+            </picture>
+            
+            <section class="mainTechnologyContent">
+    
+                <section class="navTechnology">
+    
+                    <div id="one" name="Launch vehicle" class="navCurrentTechnology">1</div>
+                    <div id="two" name="Spaceport">2</div>
+                    <div id="three" name="Space capsule" >3</div>
+            
+                </section>
+
+                <section class="technologyContent">
+                    <div class="size14-16-16px font2 colorLight marginB8-12-15px">THE TERMINOLOGY…</div>
+                    <div id="technologyName" class="size24-40-56px font1 colorWhite marginB16-24-24px">LAUNCH VEHICLE</div>
+                    <p id="technologyDescription" class="paddingB32-49-54px">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+                </section>
+
+    
+            </section>    
+        </section>    
+    </section>
+
+  </main>
+<script src="technology.js"></script>
+</body>
+</html>

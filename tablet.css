@@ -1,4 +1,9 @@
 
+.size14-16-16px {
+    font-size: 1.6rem;
+    letter-spacing: 2.36px;
+}
+
 .size16-20-28px {
     font-size: 2rem;
     letter-spacing: 3.38px;
@@ -127,6 +132,17 @@ p {
     order:1;
 }
 
+.navTechnology {
+    width: 210px;
+    margin-bottom: 44px;
+}
+
+.navTechnology>div {
+    height: 60px;
+    width: 60px;
+    font-size: 2.4rem;
+}
+
 #exploreButton {
     height: 274px;
     width: 274px;
@@ -169,8 +185,13 @@ main a {
     display: none;
 }
 
-figure {
+.crewFigure {
     border-bottom: none;
     order:1;
     margin-bottom: 0px;
+}
+
+picture {
+    width: calc(100% + 78px);
+    margin-bottom: 56px;
 }

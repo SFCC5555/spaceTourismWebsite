@@ -53,6 +53,11 @@ html {
     font-size: 2.8rem;;
 }
 
+.size14-16-16px {
+    font-size: 1.4rem;
+    letter-spacing: 2.36px;
+}
+
 .size16-20-28px {
     font-size: 1.6rem;
     letter-spacing: 2.7px;
@@ -241,6 +246,42 @@ body {
     background-color: hsl(var(--colorWhite)/50.21%);
 }
 
+.navCurrentTechnology {
+    background-color: hsl(var(--colorWhite));
+    border-color: hsl(var(--colorWhite));
+    color: hsl(var(--colorDark)) !important;
+}
+
+.navTechnology {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 152px;
+    margin-bottom: 26px;
+}
+
+.navTechnology>div {
+    height: 40px;
+    width: 40px;
+    border: 2px solid hsl(var(--colorWhite)/25%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font1);
+    font-size: 1.6rem;
+    color: hsl(var(--colorWhite));
+    cursor: pointer;
+}
+
+.navTechnology>div:hover {
+
+    border-color: hsl(var(--colorWhite));
+
+}
+
+
+
 .navSection a:hover, .navPlanet div:hover {
     cursor: pointer;
     border-bottom: 3px solid hsl(var(--colorWhite)/50.21%);
@@ -344,6 +385,11 @@ p {
     height: 222px;
 }
 
+.technologyImage {
+    width: 100%;
+
+}
+
 .title {
     text-align: center;
 }
@@ -428,8 +474,19 @@ main>a {
     color: hsl(var(--colorWhite)/50.21%);
 }
 
-figure {
+.crewFigure {
     align-self: stretch;
     margin-bottom: 32px;
     border-bottom: 1px solid hsl(var(--colorWhite)/25%);
+}
+
+picture {
+    width: calc(100% + 48px);
+    margin-bottom: 34px;
+}
+
+.mainTechnologyContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
